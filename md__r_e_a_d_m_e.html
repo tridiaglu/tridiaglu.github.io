@@ -110,13 +110,13 @@ $(document).ready(function(){initNavTree('md__r_e_a_d_m_e.html','');});
 <div class="title">README </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>Parallel (MPI) direct solver for a tridiagonal system of equations: Contains the functions for solving a non-periodic tridiagonal system of equations in parallel (LU decomposition). The system is solved by rearranging the points: grouping the last point of each sub-domain at the end. The reduced system is solved by either the recursive-doubling or gather-and-solve techniques. A test code is provided to check test these functions and their walltimes. See README for more details. </p>
+<div class="textblock"><p>Parallel (MPI) solver for non-periodic tridiagonal systems of equations: Contains the functions for solving non-periodic tridiagonal systems of equations; written in C, and uses the MPI library. An optional ScaLAPACK wrapper is also available. Detailed documentation: <a href="http://tridiaglu.github.io/index.html">http://tridiaglu.github.io/index.html</a> </p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sat Feb 13 2016 23:52:46 for TridiagLU by
+    <li class="footer">Generated on Sun Feb 14 2016 00:16:25 for TridiagLU by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>
